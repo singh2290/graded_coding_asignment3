@@ -40,8 +40,7 @@
   box-shadow: 0 0.5px 0 0;
 }
 .navlink:hover{
-  border-bottom: 5px solid rgb(37, 198, 238);
-  color: rgb(37, 198, 238);
+  border-bottom: 2px solid rgb(37, 198, 238);
 }
 .navbar-padding{
   padding: 0px!important;

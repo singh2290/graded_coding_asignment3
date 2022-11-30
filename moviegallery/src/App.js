@@ -121,7 +121,7 @@ function App() {
       <Navbar className='navbar navbar-padding'>
         <Container fluid style={{ background: 'white' }}>
           <Nav className="me-auto" style={{ gap: '5px', padding: '6px 0 0 0' }} c>
-            <Nav.Link className='navlink' onClick={() => { getMovie("movies-coming"); } }>Movies in Theater</Nav.Link>
+            <Nav.Link className='navlink ' onClick={() => { getMovie("movies-coming"); } }>Movies in Theater</Nav.Link>
             <Nav.Link className='navlink' onClick={() => { getMovie("movies-in-theaters"); } }>Coming Soon</Nav.Link>
             <Nav.Link className='navlink' onClick={() => { getMovie("top-rated-india"); } }>Top rated Indian</Nav.Link>
             <Nav.Link className='navlink' onClick={() => { getMovie("top-rated-movies"); } }>Top rated movies</Nav.Link>
